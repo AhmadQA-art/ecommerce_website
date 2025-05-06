@@ -19,7 +19,7 @@ const FilterBar = ({ onFilterChange, onSortChange, onViewChange, viewMode }) => 
   ];
 
   return (
-    <div className="bg-white sticky top-20 z-40 py-4 border-b border-gray-200">
+    <div className="bg-white py-4 border-b border-gray-200">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           {/* Filter Button (Mobile) */}

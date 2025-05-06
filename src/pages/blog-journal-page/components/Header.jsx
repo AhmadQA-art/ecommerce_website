@@ -20,27 +20,32 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <Link
-            to="/collection-category-page" className="text-primary hover:text-gray-800 font-medium transition-all"
+            to="/collection-category-page" 
+            className="font-medium transition-all text-primary hover:text-gray-800"
           >
             E-Bikes
           </Link>
           <Link
-            to="/product-detail-page" className="text-primary hover:text-gray-800 font-medium transition-all"
+            to="/product-detail-page" 
+            className="font-medium transition-all text-primary hover:text-gray-800"
           >
             Accessories
           </Link>
           <Link
-            to="/test-ride-demo-booking" className="text-primary hover:text-gray-800 font-medium transition-all"
+            to="/test-ride-demo-booking" 
+            className="font-medium transition-all text-primary hover:text-gray-800"
           >
             Test Rides
           </Link>
           <Link
-            to="/about-brand-story-page" className="text-primary hover:text-gray-800 font-medium transition-all"
+            to="/about-brand-story-page" 
+            className="font-medium transition-all text-primary hover:text-gray-800"
           >
             About
           </Link>
           <Link
-            to="/blog-journal-page" className="text-primary hover:text-gray-800 font-medium transition-all"
+            to="/blog-journal-page" 
+            className="font-medium transition-all text-primary hover:text-gray-800"
           >
             Journal
           </Link>
@@ -49,12 +54,16 @@ const Header = () => {
         {/* Right Side Icons */}
         <div className="flex items-center space-x-4">
           <Link
-            to="/support-help-center" className="text-primary hover:text-gray-800 transition-all" aria-label="Support"
+            to="/support-help-center" 
+            className="transition-all text-primary hover:text-gray-800" 
+            aria-label="Support"
           >
             <Icon name="HelpCircle" size={24} />
           </Link>
           <Link
-            to="/shopping-cart-checkout" className="text-primary hover:text-gray-800 transition-all" aria-label="Cart"
+            to="/shopping-cart-checkout" 
+            className="transition-all text-primary hover:text-gray-800" 
+            aria-label="Cart"
           >
             <Icon name="ShoppingCart" size={24} />
           </Link>
