@@ -5,10 +5,9 @@ import tagger from "@dhiwise/component-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // This changes the out put dir from dist to build
-  // comment this out if that isn't relevant for your project
+  // This changes the output dir to dist for Netlify compatibility
   build: {
-    outDir: "build",
+    outDir: "dist",
   },
   plugins: [tsconfigPaths(), react(), tagger()],
   server: {
